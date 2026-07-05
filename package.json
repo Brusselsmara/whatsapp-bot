@@ -1,0 +1,15 @@
+{
+  "name": "whatsapp-payments-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "WhatsApp bot for cross-border payments and invoice settlement (BW/ZA/NA/ZW/ZM)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.4",
+    "twilio": "^5.3.0",
+    "uuid": "^9.0.1"
+  }
+}
